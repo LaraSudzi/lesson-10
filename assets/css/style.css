@@ -11,24 +11,21 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    
     float: left;
     display: block;
     width: 600px;
-    border: 1px solid grey;
     margin: 100px;
     height: 300px;
     box-shadow: 0px 0px 10px grey;
 }
 
+
  
 .box1 {
     display: flex;
-    
     float: left;
     display: block;
     width: 186px;
-    border: 1px solid grey;
     margin: 10px;
     height: 280px;
     box-shadow: 0px 0px 10px grey;
@@ -37,10 +34,8 @@
 .pic {
     width: 80px;
     height: 80px;
-   
     box-shadow: 0px 0px 8px grey;
-    margin: 40px 20px 100px 50px;
-    
+    margin: 40px 20px 10px 50px;
     border-radius: 80px;
     object-fit: normal;
 }
@@ -51,7 +46,7 @@ article {
 }
 
 button {
-    width: 100%;
+    width: 60%;
     background: purple;
     border: none;
     color:  white;
@@ -61,24 +56,22 @@ button {
     justify-content: center;
     margin: auto;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 10px;
     align-items: baseline;
 }
 
 .btn {
-padding: 20px 15px 30px;
+    padding: 5px 15px 15px;
 }
     
 .box2 {
     display: flex;
-    
     float: left;
     display: block;
     width: 370px;
-    border: 1px solid grey;
     margin: 10px;
     height: 280px;
-    box-shadow: 0px 0px 10px grey;
+   
 }
 
 .child1 {
@@ -88,21 +81,18 @@ padding: 20px 15px 30px;
     float: left;
     display: block;
     width: 370px;
-    border: 1px solid grey;
     height: 125px;
     margin-bottom: 10px;
-    box-shadow: 0px 0px 10px grey;
+    
 }
 
 .child2 {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    
     float: left;
     display: block;
     width: 370px;
-    border: 1px solid grey;
     height: 145px;
     box-shadow: 0px 0px 10px grey;
 }
@@ -114,7 +104,6 @@ padding: 20px 15px 30px;
     float: left;
     display: block;
     width: 110px;
-    border: 1px solid grey;
     height: 125px;
     box-shadow: 0px 0px 10px grey;
 }
