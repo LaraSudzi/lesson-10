@@ -63,7 +63,23 @@ button {
 .btn {
     padding: 5px 15px 15px;
 }
-    
+
+p {
+    text-align: center;
+    margin: 15px auto;
+    font-size: 15px;
+    inline-size: -4px;
+    color: grey;
+}
+   
+.pad {
+    font-size: 15px;
+    color: green;
+    text-align: center;
+    margin: 35px auto 5px auto;
+}
+
+
 .box2 {
     display: flex;
     float: left;
