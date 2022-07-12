@@ -16,7 +16,7 @@
     display: block;
     width: 600px;
     border: 1px solid grey;
-    margin: 10px;
+    margin: 100px;
     height: 300px;
     box-shadow: 0px 0px 10px grey;
 }
@@ -39,9 +39,43 @@
     background: aqua;
     float: left;
     display: block;
-    width: 370px;
+    width: 360px;
     border: 1px solid grey;
     margin: 10px;
     height: 280px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.child1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: orange;
+    float: left;
+    display: block;
+    width: 350px;
+    border: 1px solid grey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 110px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.child2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: orange;
+    float: left;
+    display: block;
+    width: 350px;
+    border: 1px solid grey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 110px;
     box-shadow: 0px 0px 10px grey;
 }
