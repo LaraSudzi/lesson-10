@@ -48,17 +48,15 @@ body {
     display: flex;
     flex-direction: row;
     align-content: space-between;
-    width: 300px;
-    height: 150px;
+   
 } 
 
 .container-card {
-    height: 100px;
-    width: 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    gap: 10px;
+    width: 200px; 
+    height: 200px;
 }
 
 
