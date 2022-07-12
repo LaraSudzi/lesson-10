@@ -8,7 +8,7 @@ body {
     flex-direction: row;
     width: 700px;
     margin: 10px auto;
-    
+    background-color: yellowgreen; 
 }
 
 .foundation {
@@ -30,9 +30,8 @@ body {
 .container-main {
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: 400px;
-    margin: 10px auto;
+    
+    margin: 10px 10px 10px 10px;
     
 }
 
@@ -48,18 +47,18 @@ body {
 .box1 shadow {
     display: flex;
     flex-direction: row;
-    margin: 10px 10px 10px 10px;
-    width: 550px;
-    height: 250px;
+    align-content: space-between;
+    width: 300px;
+    height: 150px;
 } 
 
-.card {
+.container-card {
     height: 100px;
     width: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 10px 10px 10px 10px;
+
 }
 
 
